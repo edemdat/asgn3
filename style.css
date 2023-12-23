@@ -132,7 +132,9 @@ div > ul{
 
 .input-box label {
     margin-bottom: 5px;
-    font-weight: bold;
+    font-weight: 400;
+    color: hsla(211, 35%, 17%, 1);
+    ;
   }
   
   .input-box input {
@@ -140,6 +142,8 @@ div > ul{
     border: 1px solid #ddd;
     border-radius: 3px;
     outline: none;
+    background-color: hsla(216, 16%, 94%, 1);
+    ;
   }
 
   .form-control {
