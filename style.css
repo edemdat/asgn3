@@ -82,6 +82,7 @@ h2{
 .nine-nine{
     display: inline;
     font-size: 60px;
+    font-weight: 200;
 }
 
 sup{
@@ -135,7 +136,7 @@ div > ul{
   
   .input-box input {
     padding: 10px;
-    border: 1px solid #ddd;
+    border: none;
     border-radius: 3px;
     outline: none;
     background-color: hsla(216, 16%, 94%, 1);
@@ -156,4 +157,44 @@ div > ul{
     width: 60%;
 }
 
+.email-box{
+    display: flex;
+    flex-direction: column;
+}
+
+.payment-info{
+    margin-top: 40px;
+    border-top: solid 2px hsla(204, 18%, 90%, 1);
+}
+
+#reg-button{
+    width: 100%;
+    background: #2EC4B6;
+    ;
+}
+
+button {
+    background-color: hsla(172, 100%, 22%, 1.0);
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+
+  .register-div{
+    margin-top: 40px;
+  }
+
+  .credit-box{
+    display: flex;
+    flex-direction: column;
+  }
   
+  .right-list{
+    margin-bottom: 20px;
+  }
