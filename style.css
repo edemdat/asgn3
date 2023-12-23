@@ -3,7 +3,7 @@
 body{
     margin: 0;
     font-family: 'Lato', sans-serif;
-
+    background-color:  hsla(202, 38%, 97%, 1.0);
 }
 
 nav ul{
@@ -22,8 +22,7 @@ header{
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
-    border-bottom: solid 2px hsla(204, 18%, 90%, 1);
-    background-color: white;
+    border-bottom: solid 1px hsla(204, 18%, 90%, 1);
     ;
 }
 
@@ -32,10 +31,11 @@ nav li{
 }
 
 .main-container{
-    border: solid 1px red;
     width: 60%;
     margin: 20px auto;
     display: flex;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
 }
 
 .left-container{
@@ -63,10 +63,13 @@ h2{
 .left-inner-container{
     width: 80%;
     margin: 0 auto;
+    display: flex;
+    flex-direction: column;
 }
 
 .checkout-title{
     border-bottom: solid 1px black;
+    border-bottom: solid 2px hsla(204, 18%, 90%, 1);
 }
 
 .right-inner-container{
@@ -93,3 +96,53 @@ div > ul{
     list-style: none;
     padding: 0;
 }
+
+.number-one{
+    display: inline-block;
+    text-align: center;
+    border-radius: 50%;
+    width: 1.5rem;
+    height: auto;
+    border: 2px solid hsla(211, 49%, 55%, 1);
+    color: hsla(211, 49%, 55%, 1);
+
+}
+.left-p{
+    text-decoration: none;
+    display: inline-block;
+    margin-left: 0.5rem;
+}
+
+.name-control{
+    display: flex;
+    justify-content: space-between;
+}
+
+#email{
+    width: 60%;
+}
+
+.input-box select{
+    appearance: none;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    outline: none;
+}
+
+.input-box label {
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .input-box input {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    outline: none;
+  }
+
+  .form-control {
+    margin-bottom: 20px;
+  }
+  
