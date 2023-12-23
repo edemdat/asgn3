@@ -1,0 +1,95 @@
+
+
+body{
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+
+}
+
+nav ul{
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+header{
+    margin: 2rem 0;
+}
+
+.container{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: solid 2px hsla(204, 18%, 90%, 1);
+    background-color: white;
+    ;
+}
+
+nav li{
+    margin-left: 2rem;
+}
+
+.main-container{
+    border: solid 1px red;
+    width: 60%;
+    margin: 20px auto;
+    display: flex;
+}
+
+.left-container{
+    width: 70%;
+}
+
+.right-container{
+    width: 30%;
+    background: hsla(204, 84%, 41%, 1);
+    color: hsla(0, 0%, 100%, 1);
+
+
+}
+
+h1{
+    font-weight: 400;
+}
+
+h2{
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.left-inner-container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.checkout-title{
+    border-bottom: solid 1px black;
+}
+
+.right-inner-container{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.nine-nine{
+    display: inline;
+    font-size: 60px;
+}
+
+sup{
+    font-size: 16px;
+}
+
+.per-year{
+    display: inline;
+}
+
+div > ul{
+    list-style: none;
+    padding: 0;
+}
