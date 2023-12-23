@@ -198,3 +198,7 @@ button {
   .right-list{
     margin-bottom: 20px;
   }
+
+  .footer-text{
+    text-align: center;
+  }
